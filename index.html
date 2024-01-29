@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="loading">
+      <span class="loader"></span>
+    </div>
+    <section>
+      <div id="Data">
+        <div class="home content container mt-4" id="default">
+          <div class="row g-4" id="home"></div>
+        </div>
+        <nav>
+          <div id="navbar" class="nvv">
+            <div class="left-side">
+              <ul class="ul text-white">
+                <li>
+                  <a href="#" class="nav-link" data-target="search">Search</a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link" data-target="categories-content"
+                    >Categories</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="nav-link" data-target="area-content">Area</a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link" data-target="ingredients-content"
+                    >Ingredients</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="nav-link" data-target="contact-content"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+              <div class="left-end text-white mb-3">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+                <p>Copyright Â© 2019 All Rights Reserved.</p>
+              </div>
+            </div>
+            <div class="right-side text-center">
+              <div class="image">
+                <img src="imgs/logo.png" class="w-75" alt="" />
+              </div>
+              <i class="open fa-solid fa-bars fs-2"></i>
+              <div class="right-end fs-5 mb-3">
+                <i class="fa-solid fa-globe d-block"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <section id="search" class="content container w-75">
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <input
+                type="text"
+                id="search-name"
+                class="form-control bg-transparent text-white"
+                placeholder="Search by Name"
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="text"
+                id="search-letter"
+                class="form-control bg-transparent text-white"
+                placeholder="Search by first letter"
+              />
+            </div>
+          </div>
+        </section>
+      
+        <div class="content container mt-4" id="categories-content">
+          <div class="row g-4" id="demo"></div>
+        </div>
+        <div class="content container mt-4" id="area-content">
+          <div class="row g-4" id="area"></div>
+        </div>
+        <div class="content container mt-4" id="ingredients-content">
+          <div class="row g-4" id="ingredients"></div>
+        </div>
+        <div class="content container mt-4" id="contact-content">
+    <form>
+      <div class="row g-2 my-2" >
+        <div class="col-md-6">
+          <input
+            type="text"
+            id="contact-name"
+            class="form-control bg-transparent text-white"
+            placeholder="Enter your Name"
+          />
+        </div>
+        <div class="col-md-6">
+          <input
+            type="text"
+            id="contact-email"
+            class="form-control bg-transparent text-white"
+            placeholder="Enter your Email"
+          />
+        </div>
+
+      </div>
+      <div class="row g-2 my-2">
+        <div class="col-md-6">
+          <input
+            type="number"
+            id="contact-phone"
+            class="form-control bg-transparent text-white"
+            placeholder="Enter your phone"
+          />
+        </div>
+        <div class="col-md-6">
+          <input
+            type="number"
+            id="contact-age"
+            class="form-control bg-transparent text-white"
+            placeholder="Enter your Age"
+          />
+        </div>
+
+      </div>
+      <div class="row g-2 my-2">
+        <div class="col-md-6">
+          <input
+          type="password"
+            id="userPass"
+            class="form-control bg-transparent text-white"
+            placeholder="Enter your password"
+          />
+        </div>
+        <div class="col-md-6">
+          <input
+          type="password"
+            id="reuserPass"
+            class="form-control bg-transparent text-white"
+            placeholder="Enter your repassword"
+          />
+        </div>
+
+      </div>
+      <div class="d-flex justify-content-center">
+        <button role="button" class="btn">submit</button>
+    </div>
+  
+    </form>
+         
+        
+        </div>
+      </div>
+     
+    </section>
+    <!-- <section id="Categories" class="container mt-4">
+    <div class="row g-4" id="category"></div>      
+  
+  </section> -->
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js" type="module"></script>
+    <script src="js/contact.js"></script>
+  </body>
+</html>
